@@ -91,7 +91,7 @@ Remove it any time with `/guard remove`.
 > skills directory (`.claude/skills/` for Claude Code), then restart.
 
 ```bash
-npx skills@latest add <your-username>/stop-guessing -a claude-code
+npx skills@latest add rirote-global/stop-guessing -a claude-code
 ```
 
 Works with any Agent Skills client. `AGENTS.md` is the tool agnostic context file; a thin
@@ -107,7 +107,7 @@ each other, and nothing tells you which one ran.
 Installing as a plugin namespaces them, so both can coexist. From a terminal:
 
 ```bash
-claude plugin marketplace add <your-username>/stop-guessing
+claude plugin marketplace add rirote-global/stop-guessing
 claude plugin install stop-guessing@stop-guessing
 ```
 
